@@ -1,0 +1,113 @@
+
+.background {
+    background-image: linear-gradient(to right, rgb(246, 0, 0) , rgb(228, 3, 160));
+}
+
+h2 {
+    position: absolute; 
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.085em;
+    color: white;
+    left: 625px;
+    top: -2px;
+}
+
+
+ h3 {
+    position: absolute;
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.085em;
+    color: rgba(255, 255, 255, 0.874);
+    left: 380px;
+    top: 85px;
+
+}
+
+
+.backbutton {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    width: 100px;
+    height: 55px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    left: 620px;
+    top: 250px;
+    transition: all 0.3s;
+}
+
+
+.emailme {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    width: 120px;
+    height: 55px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    left: 655px;
+    top: 250px;
+    transition: all 0.3s;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+
+
+.backbutton:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0);
+    width: 100px;
+    height: 55px;
+    color: rgb(255, 0, 47);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    left: 620px;
+    top: 250px;
+    transition: all 0.3s;
+}
+
+
+.emailme:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0);
+    width: 120px;
+    height: 55px;
+    color: rgb(255, 0, 47);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    left: 655px;
+    top: 250px;
+    transition: all 0.3s;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 47);
+    transition: all 0.3s;
+}
+

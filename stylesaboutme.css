@@ -1,0 +1,196 @@
+body {
+    background-image: linear-gradient(to right, rgb(234, 69, 149) , rgb(12, 44, 185));
+}
+
+
+
+
+.mainhead {
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 180px;
+    letter-spacing: -0.065em;
+    color: white;
+    position: absolute;
+    left: 200px;
+    bottom: 400px;
+}
+
+.subhead {
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    position: absolute;
+    top: 225px;
+    left: 200px;
+    color: white;
+    letter-spacing: -0.05em;
+}
+
+
+.ytbutton {
+    background-color: #ffffff00; 
+    border: 1px solid white;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    top: 355px;
+    left: 195px;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 0.4s;
+}
+
+
+.hbutton {
+    background-color: #ffffff00; 
+    border: 1px solid white;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    top: 355px;
+    left: 210px;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 0.5s;
+}
+
+.text {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 35px;
+    left: 65px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 1px;
+    display: flex;
+    position: absolute;
+    left: 1150px;
+    top: 35px;
+    
+}
+
+ul li {
+    margin-left: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}   
+
+li a {
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.text {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 35px;
+    left: 65px;
+}
+
+
+.hbutton:active {
+    background-color: #ffffff; 
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 15px;
+    color: rgb(213, 25, 128);
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    top: 355px;
+    left: 210px;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 0.4s;
+}
+
+
+.ytbutton:active {
+    background-color: #ffffff; 
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 15px;
+    color: rgb(213, 25, 128);
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    top: 355px;
+    left: 195px;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 0.4s;
+}
+
+.ytbutton:hover {
+    background-color: #ffffff; 
+    border: 1px solid white;
+    border-radius: 4px;
+    color: rgb(213, 25, 128);
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    top: 355px;
+    left: 195px;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 0.4s;
+}
+
+.hbutton:hover {
+    background-color: #ffffff; 
+    border: 1px solid white;
+    border-radius: 4px;
+    color: rgb(213, 25, 128);
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    top: 355px;
+    left: 210px;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 0.5s;
+}
+
+
+
+
+li a {
+    color: white;
+    transition: all 0.3s;
+}
+
+li a:hover {
+    color: rgb(0, 88, 240);
+    transition: all 0.3s;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
